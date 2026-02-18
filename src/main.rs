@@ -1,12 +1,16 @@
-fn main() {
-    let apples = 50;
-    let oranges = 14 + 6;
-    let _fruits = apples + oranges;
+const TAX_RATES: f64 = 7.25;
 
-    //println!("This year, my garden has {} apples and {} oranges",apples,oranges);
-    //println!("This year, my garden has {apples} apples and {oranges} oranges");
-    // println!(
-    //     "This year, my garden has {0} apples and {1} oranges",
-    //     apples, oranges
-    // );
+fn main() {
+    let income = 100000;
+
+    println!("My income is {income} The tax rate is: {TAX_RATES}%");
+
+    // let coffe_price = 5.99;
+
+    // {
+    //     let coffe_price = 1.99;
+    //     println!("The price of coffee is: {coffe_price}");
+    // }
+
+    // println!("The price of coffee is: {coffe_price}");
 }
