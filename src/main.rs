@@ -1,16 +1,6 @@
-const TAX_RATES: f64 = 7.25;
-
+#![allow(unused_variables)]
+type Meters = i32;
 fn main() {
-    let income = 100000;
-
-    println!("My income is {income} The tax rate is: {TAX_RATES}%");
-
-    // let coffe_price = 5.99;
-
-    // {
-    //     let coffe_price = 1.99;
-    //     println!("The price of coffee is: {coffe_price}");
-    // }
-
-    // println!("The price of coffee is: {coffe_price}");
+    let mile_race_length: Meters = 1600;
+    let two_mile_race_length: Meters = 3200;
 }
